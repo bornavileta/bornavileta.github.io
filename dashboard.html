@@ -1,168 +1,162 @@
 <!DOCTYPE html>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
-<nav>
+
+<html>
+
+<!--head with stylesheet link-->
+
+<head>
+   <title>Dashboard</title>
+   <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-   <style>
-      body {
-      margin: 0;
-      }
-      .icon-bar {
-      width: 100%;
-      background-color: rgb(70, 60, 211);
-      overflow: auto;
-      }
-      .icon-bar a {
-      float: left;
-      width: 20%;
-      text-align: center;
-      padding: 12px 0;
-      transition: all 0.3s ease;
-      color: rgb(255, 255, 255);
-      font-size: 30px;
-      text-decoration: none;
-      }
-      .icon-bar a:hover {
-      background-color: rgb(100, 89, 255);
-      }
-      .active {
-      background-color: rgb(100, 89, 255);
-      }
-   </style>
-   <div class="icon-bar">
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+   <!--navigation menu-->
+
+   <nav>
+
+      <div class="icon-bar">
       <a href="index.html">HOME</a>
       <a href="profile.html">PROFILE</a>
       <a class="active" href="dashboard.html">DASHBOARD</a>
       <a href="faq.html">FAQ</a>
       <a href="blog.html">BLOG</a>
-   </div>
-</nav>
-<style>
-   table {
-   font-family: arial, sans-serif;
-   border-collapse: collapse;
-   width: 100%;
-   }
-   td,
-   th {
-   border: 2px solid #000000;
-   text-align: left;
-   padding: 8px;
-   }
-   tr:nth-child(even) {
-   background-color: #d2daff;
-   }
-</style>
-</head>
-<body>
-   <table>
-      <tr>
-         <th>Kwartaal</th>
-         <th>Vak</th>
-         <th>Studiepunten</th>
-         <th>Toetsing</th>
-         <th>Cijfer</th>
-      </tr>
-      <tr>
-         <td rowspan="3">1</td>
-         <td>Program And Career Orientation</td>
-         <td>2,5</td>
-         <td>Assesments</td>
-         <td>-</td>
-      </tr>
-      <tr>
-         <td>Programming Basics</td>
-         <td>5</td>
-         <td>Case Study</td>
-         <td>-</td>
-      </tr>
-      <tr>
-         <td>Computer Science Basics</td>
-         <td>5</td>
-         <td>Written Exam</td>
-         <td>-</td>
-      </tr>
-      <tr>
-         <td rowspan="2">2</td>
-         <td>OOP</td>
-         <td>10</td>
-         <td>Case Study</td>
-         <td>-</td>
-      </tr>
-      <tr>
-         <td></td>
-         <td></td>
-         <td>Project</td>
-         <td>-</td>
-      </tr>
-      <tr>
-         <td rowspan="4">3</td>
-         <td>Framework Development 1</td>
-         <td>5</td>
-         <td>Case Study</td>
-         <td>-</td>
-      </tr>
-      <tr>
-         <td>Framework Project 1</td>
-         <td>7,5</td>
-         <td>Project</td>
-         <td>-</td>
-      </tr>
-      <tr>
-         <td></td>
-         <td></td>
-         <td>Case Study</td>
-         <td>-</td>
-      </tr>
-      <tr>
-         <td></td>
-         <td></td>
-         <td>Assesments</td>
-         <td>-</td>
-      </tr>
-      <tr>
-         <td rowspan="4">4</td>
-         <td>Framework Project 2</td>
-         <td>10</td>
-         <td>Portfolio</td>
-         <td>-</td>
-      </tr>
-      <tr>
-         <td></td>
-         <td></td>
-         <td>Project</td>
-         <td>-</td>
-      </tr>
-      <tr>
-         <td></td>
-         <td></td>
-         <td>Assesments</td>
-         <td>-</td>
-      </tr>
-   </table>
-   <head>
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <style>
-         .footer {
-         position: fixed;
-         left: 0;
-         bottom: 0;
-         width: 100%;
-         background-color: rgb(100, 99, 255);
-         color: white;
-         text-align: center;
-         }
-      </style>
-   </head>
-   <body>
-      <div class="footer">
-         <p>HZ University Of Applied Sciences: HBO-ICT</p>
       </div>
+
+   </nav>
+
+   <!--table and styling-->
+
+   <style>
+      table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+      }
+      td,
+      th {
+      border: 2px solid #000000;
+      text-align: left;
+      padding: 8px;
+      }
+      tr:nth-child(even) {
+      background-color: #d2daff;
+      }
+   </style>
+
+   <table>
+
+   <tr>
+      <th>Kwartaal</th>
+      <th>Vak</th>
+      <th>Studiepunten</th>
+      <th>Toetsing</th>
+      <th>Cijfer</th>
+   </tr>
+
+   <tr>
+      <td rowspan="3">1</td>
+      <td>Program And Career Orientation</td>
+      <td>2,5</td>
+      <td>Assesments</td>
+      <td>-</td>
+   </tr>
+
+   <tr>
+      <td>Programming Basics</td>
+      <td>5</td>
+      <td>Case Study</td>
+      <td>-</td>
+   </tr>
+
+   <tr>
+      <td>Computer Science Basics</td>
+      <td>5</td>
+      <td>Written Exam</td>
+      <td>-</td>
+   </tr>
+
+   <tr>
+      <td rowspan="2">2</td>
+      <td>OOP</td>
+      <td>10</td>
+      <td>Case Study</td>
+      <td>-</td>
+   </tr>
+
+   <tr>
+      <td></td>
+      <td></td>
+      <td>Project</td>
+      <td>-</td>
+   </tr>
+
+   <tr>
+      <td rowspan="4">3</td>
+      <td>Framework Development 1</td>
+      <td>5</td>
+      <td>Case Study</td>
+      <td>-</td>
+   </tr>
+
+   <tr>
+      <td>Framework Project 1</td>
+      <td>7,5</td>
+      <td>Project</td>
+      <td>-</td>
+
+   </tr>
+
+   <tr>
+      <td></td>
+      <td></td>
+      <td>Case Study</td>
+      <td>-</td>
+   </tr>
+
+   <tr>
+      <td></td>
+      <td></td>
+      <td>Assesments</td>
+      <td>-</td>
+   </tr>
+      
+   <tr>
+      <td rowspan="4">4</td>
+      <td>Framework Project 2</td>
+      <td>10</td>
+      <td>Portfolio</td>
+      <td>-</td>
+   </tr>
+      
+   <tr>
+      <td></td>
+      <td></td>
+      <td>Project</td>
+      <td>-</td>
+   </tr>
+      
+   <tr>
+      <td></td>
+      <td></td>
+      <td>Assesments</td>
+      <td>-</td>
+   </tr>
+
+   </table>
+
+   <!--footer with social media links-->
+   
+   <div class="footer">
+      <p>
+      <button onClick="javascript:window.open('//www.instagram.com/bornavileta','blank');" >Instagram</button>
+      <button onClick="javascript:window.open('//twitter.com/bornavileta','blank');" >Twitter</button>
+      <button onClick="javascript:window.open('//www.youtube.com/watch?v=dQw4w9WgXcQ','blank');" >YouTube</button>
+      </p>
+   </div>
+
 </body>
-</html>
-<html>
-   <body style="background-color:rgb(255, 255, 255);">
-   </body>
+
 </html>
