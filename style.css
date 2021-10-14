@@ -1,5 +1,3 @@
-
-
 nav {
     font-family: Arial, Helvetica, Sans-Serif;
     font-size: 2ch;
@@ -47,6 +45,14 @@ body {
 
 .block {
     float: left;
+    width: 33.3%;
+    border: 1px dotted #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+a {
+    color: white;
 }
 
 .table-style {
@@ -82,10 +88,6 @@ body {
     margin: auto;
     color: white;
     margin-bottom: 10px;
-}
-
-.textbox1 h1 {
-text-transform: uppercase;
 }
 
 .footer {
