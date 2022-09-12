@@ -9,6 +9,7 @@
 </head>
 
 <body>
+    <!-- Top Navigation Bar -->
     <div class="topnav">
         <a href="index.html">Home</a>
         <a href="profile.html">Profile</a>
@@ -16,6 +17,71 @@
         <a href="faq.html">FAQ</a>
         <a href="blog.html">Blog</a>
     </div>
+
+    <style>
+        table {
+            border: 1px black solid;
+            border-collapse: collapse;
+            width: 100%;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        td {
+            border: 1px black solid;
+        }
+
+        thead {
+            border: 1px black solid;
+        }
+    </style>
+
+    <table>
+        <thead>
+            <tr>
+                <!-- Top Bar -->
+                <td>Quarter</td>
+                <td>Course</td>
+                <td>ECs</td>
+                <td>Exam Type</td>
+                <td>Grade</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <!-- Quarter 1 -->
+                <td rowspan="3">1</td>
+                <td>Program & Career Orientation</td>
+                <td>2.5</td>
+                <td>Assessment Website</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Computer Science Basics</td>
+                <td>5</td>
+                <td>Written Exam</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Programming Basics</td>
+                <td>5</td>
+                <td>Case Study Exam</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td rowspan="2">2</td>
+                <td rowspan="2">Object Oriented Programming</td>
+                <td>5</td>
+                <td>Case Study Exam</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Presentation</td>
+                <td>-</td>
+            </tr>
+        </tbody>
+    </table>
+
 </body>
 
 </html>
