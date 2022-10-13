@@ -4,7 +4,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     line-height: 1.6em;
-    margin:0;
+    margin: 50px;;
+    overflow: auto;
 }
 
 :any-link {
@@ -14,8 +15,8 @@ body {
 
 .container {
     width: 72%;
-    margin: auto;
-    overflow: hidden;
+    overflow:visible;
+    margin-top: 50px;
 }
 
 #main-header {
@@ -50,7 +51,9 @@ body {
 }
 
 #main {
-    font-size: 20px;
+    font-size: 15px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 #main-footer {
@@ -61,9 +64,6 @@ body {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 3px;
-}
-
-.file {
-    align-content: center;
+    padding: 2px;
+    margin-top: 50px;
 }
